@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Source+Sans+Pro:wght@200;300&display=swap');
+/*Global Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+:root {
+  --heading: #1e1964;
+  --sky-blue: #34a1cd;
+  --purple: #55527c;
+  --grey: #b4b2c5;
+  --pink: #ea4c89;
+  --background: #f4f3ff;
+  --light-pink: #ecbcc1;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  color: grey;
+  background: var(--background);
+}
+li {
+  list-style: none;
+  color: grey;
+}
+
+.navbar li:hover {
+  font-weight: 700;
+  transform: scale(1.1);
+}
+
+a {
+  text-decoration: none;
+}
+
+hr{
+    width: 80%;
+    margin-left: 30px;
+}
+
+.container {
+  width: 80%;
+  margin: 60px auto;
+}
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+/*Project CSS  */
+/* Navbar CSS */
+.navbar {
+  width: 100%;
+  padding: 30px;
+  display: flex; /*By Default it will align them in a single row  */
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  color: grey;
+}
+
+.brand .logo {
+  width: 30%;
+}
+
+.navbar .nav-list ul
+ {
+  display: flex;
+  margin-right: 30px;
+  color: grey;
+}
+
+.navbar .nav-list ul li
+{
+  margin: 0px 30px;
+  color: grey;
+}
+
+.screen img{
+    margin-top: 300px;
+   
+    border-radius: 50%;
+    width:80%;
+    
+}
+.screen{
+    font-family: 'Source Sans Pro';
+    font: 1em 'Source Sans Pro'; 
+    color: black;
+    display: inline-flexbox;
+    align-content: flex-end;
+    margin-right: 10%;
+    padding-left: 400px;
+    justify-content: space-between;
+    border-color: #0066FF solid;
+    margin-left: 50px;
+    
+}
+
+.screen-container {
+    display: flex;
+}
+
+.btn{
+    display: flex;
+    flex-shrink: 0;
+
+}
+
+.text {
+    
+    display: flex;
+    margin-top: 20%;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 30px;
+    font-family: 'Source Sans Pro';
+    font: 1em 'Source Sans Pro'; 
+    color: black;   
+    
+}
+
+.text ul li {
+    font-family: 'Source Sans Pro';
+    font: 1em 'Source Sans Pro'; 
+    color: black; 
+
+}
+.btn{
+    margin-top: 50px;
+    background-color:#0066FF;
+    color: aliceblue;
+    padding:10px 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+    text-align: center;
+    border: none;
+    display: inline-flex;
+   
+}
+.btn-text{
+    display: flex;
+    
+}
+
+.form{
+    display: inline-flex;
+    background-color: none;
+    margin-left: 10%;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    padding-top: 50px;
+    
+}
+
+
+input{
+    width: 300px;
+    border: none;
+}
+
+#date-time{
+    flex-shrink: 0;
+}
+#link span:hover{
+    font-weight: 700;
+    transform: scale(1.1); 
+}
