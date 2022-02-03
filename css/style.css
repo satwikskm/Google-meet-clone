@@ -17,7 +17,7 @@ html {
   --purple: #55527c;
   --grey: #b4b2c5;
   --pink: #ea4c89;
-  --background: #f4f3ff;
+  --background: #fff;
   --light-pink: #ecbcc1;
 }
 
@@ -157,6 +157,7 @@ hr{
     flex-shrink: 0;
     box-sizing: border-box;
     padding-top: 50px;
+    border: black;
     
 }
 
